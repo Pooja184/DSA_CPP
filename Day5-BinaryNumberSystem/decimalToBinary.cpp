@@ -7,6 +7,7 @@ int decimalToBinaryConversion(int num){
 
     while(num>0){
         int rem=num%2;
+        cout<<rem<<"rem \n";
         num/=2;
         ans+=(rem*power);
         power*=10;
