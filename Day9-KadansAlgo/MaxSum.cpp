@@ -4,6 +4,7 @@ using namespace std;
 
 int maxSubArr(vector<int>vec,int range){
     int maxSum=0;
+    // cout<<vec.size();
     for(int i=0;i<=vec.size()-range;i++){
         int sum=0;
         for(int j=i;j<i+range;j++){
