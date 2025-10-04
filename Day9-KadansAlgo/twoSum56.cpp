@@ -3,17 +3,20 @@
 using namespace std;
 
 vector<int> twoSum(vector<int>vec,int target){
+    vector<int>ans;
     for(int i=0;i<vec.size();i++){
         for(int j=i+1;j<vec.size();j++){
             int sum=0;
             sum=vec[i]+vec[j];
             if(sum==target){
-                return {i,j};
+                ans.push_back(i);
+                ans.push_back(j);
+                return ans;
             }
 
         }
     }
-   return {};
+   return ans;;
 }
 
 int main(){
