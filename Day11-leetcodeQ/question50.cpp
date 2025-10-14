@@ -42,8 +42,8 @@ double exponential(double x, int n) {
 }
 
 int main() {
-    double x = 2.00000;
-    int n = 10;
+    double x =3;
+    int n = 4;
 
     // Expected output: 1024 (because 2^10 = 1024)
     cout << exponential(x, n);
