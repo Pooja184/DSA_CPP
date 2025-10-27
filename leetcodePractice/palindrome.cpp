@@ -7,7 +7,7 @@ bool palindrome(int x){
     
      string str=to_string(x);
      int i=0,j=str.size()-1;
-    //  cout<<str[i]<<str[j]<<" ";
+     cout<<str[i]<<str[j]<<" ";
 
 
         bool isPalindrome=true;
